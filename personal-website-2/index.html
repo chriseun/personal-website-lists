@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--using-FontAwesome-->
+    <script src="https://kit.fontawesome.com/df38232220.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+    <title>Personal Website-2</title>
+</head>
+<body>
+    <section>
+        <!--nav-->
+            <nav>
+                <!--logo-->
+                <a href="#" class="logo">CEUN</a>
+                <!--menu-->
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Team</a></li>
+                </ul>
+                <!--bars-->
+                <div class="toggle"></div>
+
+            </nav>
+            <!--text-->
+            <div class="text-container">
+                <p>Hello</p>
+                <p>I'm Chris Eun</p>
+                <p>I'm a Web Developer</p>
+                <button class="hire-btn">Hire me</button>
+                <button class="down-cv">Download CV</button>
+            </div>
+
+            <!--model-->
+                <img src="img/model-2-1-1.bmp" class="model" alt="model">
+
+
+    </section>
+    <!--about-section-->
+    <div class="about-container">
+    <!--img-->
+    <img src="img/model.jpg" class="model-2" alt="about">
+    <!--about-text-->
+    <div class="about-text">
+        <p>About Me</p>
+        <p>Web Developer</p>
+        <p>Hello, My name is Chris Eun. I am a Developer. If you have any projects 
+            or if you want to make a webite for your business, contact me. We can make a 
+            schedule and I can make it possible. My primary focus is your satisfaction.
+        </p>
+    <!--button-->
+    <button>Hire Me</button>    
+    <button>Download CV</button>    
+        </div>
+    </div>
+
+    <!--services-->
+    <div class="services">
+        <!--text-->
+        <div class="services-text">
+            <p>Services</p>
+            <p>Services Required</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, aut.</p>
+        </div>
+    
+    
+    <!--box-->
+        <div class="box-container">
+            <!--1-->
+            <div class="box-1">
+                <span>1</span>
+                <p class="heading">Web Design</p>
+                <p class="details">Lorem ipsum, dolor sit amet consectetur 
+                    adipisicing elit. Eligendi, ipsam!
+                </p>
+                <button>Read More</button>
+
+            </div>
+            <!--2-->
+            <div class="box-2">
+                <span>2</span>
+                <p class="heading">Web Development</p>
+                <p class="details">Lorem ipsum, dolor sit amet consectetur 
+                    adipisicing elit. Eligendi, ipsam!
+                </p>
+                <button>Read More</button>
+            </div>
+            <!--3-->
+            <div class="box-3">
+                <span>3</span>
+                <p class="heading">Web Security/SEO</p>
+                <p class="details">Lorem ipsum, dolor sit amet consectetur 
+                    adipisicing elit. Eligendi, ipsam!
+                </p>
+                <button>Read More</button>
+            </div>
+        </div>
+    </div>
+
+    <!--contact-me-->
+    <div class="contact-me">
+        <p>If You Have Any Project In Your Mind.</p>
+        <button>Contact Me</button>
+    </div>
+
+    <!--footer-->
+    <footer>
+        <p>Going To Internet</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Ab, iusto.</p>
+            <!--social-->
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            <!--copyright-->
+            <p class="copyright">Copyright by Going to the Internet</p>
+    </footer>
+    <!--attached social bar-->
+    <div class="a-social-b">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+    <!--JQuery-->
+    <script type="text/javascript" src="./js/jquery.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function(){
+            $('.toggle').click(function(){
+                $('.toggle').toggleClass('active')
+                $('nav').toggleClass('active')
+            })
+        })
+        
+        </script>
+    
+</body>
+</html>
